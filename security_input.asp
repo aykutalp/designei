@@ -1,0 +1,33 @@
+<%
+function security_input(data)
+data = Replace (data ,"`","&acute;",1,-1,1)
+data = Replace (data ,"=","",1,-1,1)
+data = Replace (data ,"&","",1,-1,1)
+data = Replace (data ,"%","",1,-1,1)
+data = Replace (data ,"!","",1,-1,1)
+data = Replace (data ,"#","",1,-1,1)
+data = Replace (data ,"<","",1,-1,1)
+data = Replace (data ,">","",1,-1,1)
+data = Replace (data ,"*","",1,-1,1)
+data = Replace (data ,"/","",1,-1,1)
+data = Replace (data ,"\","",1,-1,1)
+data = Replace (data ,"'","&acute;",1,-1,1)
+data = Replace (data ,"Chr(34)","",1,-1,1)
+data = Replace (data ,"Chr(39)","",1,-1,1)
+data = Replace (data ,"vbCrLf","",1,-1,1)
+'data = Replace (data ,"%20","",1,-1,1)
+data = Replace (data ,"Html","",1,-1,1)
+data = Replace (data ,"html","",1,-1,1)
+data = Replace(data, "UNION", "",1,-1,1)
+data = Replace(data, "SELECT", "",1,-1,1)
+data = Replace(data, "UPDATE", "",1,-1,1)
+data = Replace(data, "INSERT", "",1,-1,1)
+data = Replace(data, "ORDER", "",1,-1,1)
+data = Replace(data, "GROUP", "",1,-1,1)
+data = Replace(data, "ALTER", "",1,-1,1)
+data = Replace(data, "MODIFY", "",1,-1,1)
+data = Replace(data, "RENAME", "",1,-1,1)
+
+security_input=data
+end function
+%>

@@ -1,0 +1,27 @@
+<%
+function ss(data)
+data = Replace (data ,"Chr(34)","",1,-1,1)
+data = Replace (data ,"Chr(39)","",1,-1,1)
+data = Replace (data ,"vbCrLf","",1,-1,1)
+'data = Replace (data ,"%20","",1,-1,1)
+data = Replace (data ,"Html","",1,-1,1)
+data = Replace (data ,"html","",1,-1,1)
+data = Replace (data ,"Body","",1,-1,1)
+data = Replace (data ,"body","",1,-1,1)
+data = Replace (data ,"Body","",1,-1,1)
+data = Replace(data, "UNION", "",1,-1,1)
+data = Replace(data, "SELECT", "",1,-1,1)
+data = Replace(data, "WHERE", "",1,-1,1)
+data = Replace(data, "LIKE", "",1,-1,1)
+data = Replace(data, "FROM", "",1,-1,1)
+data = Replace(data, "UPDATE", "",1,-1,1)
+data = Replace(data, "INSERT", "",1,-1,1)
+data = Replace(data, "ORDER", "",1,-1,1)
+data = Replace(data, "GROUP", "",1,-1,1)
+data = Replace(data, "ALTER", "",1,-1,1)
+data = Replace(data, "ADD", "",1,-1,1)
+data = Replace(data, "MODIFY", "",1,-1,1)
+data = Replace(data, "RENAME", "",1,-1,1)
+ss=data
+end function
+%>

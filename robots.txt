@@ -1,0 +1,15 @@
+User-Agent: *
+Disallow: /adm_adm_admin/default.asp
+Disallow: /adm_adm_admin/adm_adm.asp
+Disallow: /adm_adm_admin/adm_inspire.asp
+Disallow: /adm_adm_admin/connection.asp
+Disallow: /adm_adm_admin/adm_designer.asp
+Allow: /
+Allow: /adm_adm_admin/adm_video.asp
+Disallow: /adm_adm_admin/adm_design.asp
+Disallow: /adm_adm_admin/admin.asp
+Disallow: /adm_adm_admin/adm_producer.asp
+Disallow: /adm_adm_admin/security.asp
+Disallow: /adm_adm_admin
+Disallow: /adm_adm_admin/adm_magazine.asp
+
